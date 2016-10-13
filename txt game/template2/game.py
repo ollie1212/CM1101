@@ -141,12 +141,12 @@ def print_room(room):
     Note: <BLANKLINE> here means that doctest should expect a blank line.
     """
     # Display room name
-    print()
+    print("")
     print(room["name"].upper())
-    print()
+    print("")
     # Display room description
     print(room["description"])
-    print()
+    print("")
     print_room_items(room)
     # COMPLETE ME!
     #
